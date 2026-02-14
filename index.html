@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://toppng.com/uploads/preview/uber-new-logo-2018-11550112725dlrgv5nhdy.png"
+      type="image/x-icon"
+    />
+    <!-- font-aweosme-cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Uber</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-black p-3">
+      <div id="nav-left" class="container">
+        <h3 class="navbar-brand text-light fs-3" href="#">Uber</h3>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >RIDE</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">DRIVE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#"> BUSINESS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                ABOUT
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item"></li>
+            </ul>
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-light"
+                  aria-current="page"
+                  href="#"
+                >
+                  EN</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">HELP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">LOGIN</a>
+              </li>
+              <li class="nav-item">
+                <button id="signup-btn" class="nav-link text-dark" href="#">
+                  SIGNUP
+                </button>
+              </li>
+            </ul>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- home section -->
+
+    <section id="hero" class="container d-flex" style="margin-top: 100px">
+      <!-- HERO-SECTION -LEFT -->
+      <div id="left-content" class="" style="width: 40%">
+        <h5>
+          <i class="fa-solid fa-location-dot" style="color: rgb(0, 0, 0)"></i>
+          Bhopal, IN <a class="text-dark" href=""> Change city </a>
+        </h5>
+        <h1 class="" style="font-size: 60px; font-weight: 700">
+          Request a ride for now or later
+        </h1>
+        <p>
+          <i class="fa-solid fa-tag" style="color: rgba(116, 192, 252, 1)"></i>
+          Up to 50% off your first 5 Uber rides. T&Cs apply.*
+        </p>
+        <p>*Valid within 15 days of signup.</p>
+        <select id="pick-up-drop" class="form-select" aria-label="Default select example">
+          <option selected>  &#128352; PICK UP NOW</option>
+          <option value="1"> &#128352; SCHEDULE LATER</option>
+        
+        </select>
+        <input class="form-control" type="text" value=" &#128307; Pickup Location" aria-label="readonly input example" readonly>
+        <input class="form-control" type="text" value=" &#128307; Drop off Location" aria-label="readonly input example" readonly>
+        <button type="button" class="btn ">See Prices</button>
+        
+      </div>
+
+      <!-- HERO-SECTION-RIGHT -->
+      <div id="right-image" class="" style="width: 60%; padding-left: 100px">
+        <img
+          style="width: 700px"
+          src="https://cn-geo1.uber.com/image-proc/crop/resizecrop/udam/format=auto/width=1344/height=1344/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy80MmEyOTE0Ny1lMDQzLTQyZjktODU0NC1lY2ZmZmUwNTMyZTkucG5n"
+          alt=""
+        />
+      </div>
+    </section>
+  </body>
+</html>
