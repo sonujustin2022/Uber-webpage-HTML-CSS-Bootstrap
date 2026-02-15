@@ -224,7 +224,7 @@ footer h4{
     color: white;
 }
 
-footer a,li{
+footer a, footer li{
     color: white;
     font-size: 18px;
     list-style-type: none;
