@@ -217,3 +217,18 @@ nav a:hover{
     padding: 10px 30px;
     margin-top: 20px;
 }
+
+/* footer-section-styling */
+
+footer h4{
+    color: white;
+}
+
+footer a,li{
+    color: white;
+    font-size: 18px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+
