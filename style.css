@@ -188,3 +188,32 @@ nav a:hover{
     margin-top: 120px;
    
 }
+
+/* use the uber-app styling section */
+
+#uber-app-cards p{
+    padding-top: 10px;
+    padding-left: 10px;
+    position: relative;
+    right: 10px;
+    word-wrap: break-word;
+
+}
+
+.uber-cards{
+    width: 400px;
+}
+
+.uber-cards h3{
+    margin-top: 20px;
+}
+
+.uber-cards p{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.uber-cards button{
+    padding: 10px 30px;
+    margin-top: 20px;
+}
