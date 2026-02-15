@@ -84,7 +84,7 @@ nav a:hover{
 #left-plans{
     width: 70%;
     background-color: rgb(96, 152, 175);
-    border-radius: 8px;
+    border-radius: 12px;
     padding: 40px;
 }
 .plan-para-01,.plan-para-02{
@@ -120,4 +120,11 @@ nav a:hover{
     width: 310px;
      border-radius: 10px;
     padding: 10px 20px;
+}
+
+#right-plans ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 20px;
 }
