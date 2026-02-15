@@ -128,3 +128,37 @@ nav a:hover{
     gap: 20px;
     font-size: 20px;
 }
+
+/* uber-one-section-styling */
+
+#uber-one h1{
+    color: white;
+    font-size: 50px;
+
+} 
+#uber-one p{
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+
+} 
+#uber-one button{
+    font-size: 20px;
+    font-weight: 600;
+   padding: 15px 30px;
+    margin-top: 20px;
+
+} 
+
+#uber-one {
+  margin-top: 200px;
+  height: 400px;
+
+} 
+
+
+#uber-one img{
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
