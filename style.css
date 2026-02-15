@@ -162,3 +162,29 @@ nav a:hover{
     top: -100px;
     left: 100px;
 }
+
+
+/* ride with friends section styling */
+
+
+#ride-friends{
+    margin-bottom: 100px;
+}
+
+#ride-friends h1{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: 600;
+
+} 
+
+#ride-friends p{
+    color: black;
+    font-size: 18px;
+    margin-top: 20px;
+
+} 
+#ride-friends-content{
+    margin-top: 120px;
+   
+}
