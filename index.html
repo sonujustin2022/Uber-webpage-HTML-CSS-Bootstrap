@@ -242,24 +242,32 @@
     <section id="plans-section" class="container mt-5">
       <h1 class="headings">Plans for later</h1>
       <!-- left-plans -->
-      <div id="left-plans">
-        <p>Get your ride right with Uber Reserve</p>
-        <p>Choose date and time</p>
-        <label for="">date</label>
-        <input type="date" id="" />
-        <label for="">time</label>
-        <input type="time" id="" />
-        <button class="btn btn-dark d-block">Next</button>
-      </div>
-      <!-- right plans -->
-      <div id="right-plans">
-        <h3>Benefits</h3>
-        <ul>
-          <li>Choose your exact pickup time up to 90 days in advance.</li>
-          <li>Extra wait time included to meet your ride.</li>
-          <li>Cancel at no charge up to 60 minutes in advance.</li>
-        </ul>
-        <a href="">See terms</a>
+      <div id="plans" class="d-flex justify-content-between mt-5">
+        <div id="left-plans">
+          <p class="plan-para-01">Get your ride right</p>
+          <p class="plan-para-02">with Uber Reserve</p>
+          <p class="date-time">Choose date and time</p>
+             <div class="d-flex ">
+            <label style="color: rgb(45, 46, 47);" for="">Date</label>
+            <label style="position: relative; left: 160px; color: rgb(45, 46, 47);" for="">Time</label>
+          </div>
+          <div class="d-flex">
+            <input type="date" id="" />
+            <input style="position: relative; left: 10px;"  type="time" id="" />
+          </div>
+
+          <button  class="btn btn-dark d-block mt-3">Next</button>
+        </div>
+        <!-- right plans -->
+        <div id="right-plans">
+          <h3>Benefits</h3>
+          <ul>
+            <li> <i class="fa-solid fa-calendar" style="color: rgba(0, 0, 0, 1.00);"></i> Choose your exact pickup time up to 90 days in advance.</li>
+            <li><i class="fa-regular fa-clock" style="color: rgba(0, 0, 0, 1.00);"></i> Extra wait time included to meet your ride.</li>
+            <li><i class="fa-solid fa-credit-card" style="color: rgba(0, 0, 0, 1.00);"></i> Cancel at no charge up to 60 minutes in advance.</li>
+          </ul>
+          <a class="text-dark fs-5" href="">See terms</a>
+        </div>
       </div>
     </section>
   </body>
