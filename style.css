@@ -220,9 +220,18 @@ nav a:hover{
 
 /* footer-section-styling */
 
-footer h4{
-    color: white;
+footer p{
+    margin-top: 90px;
+   font-size: 40px;
+   margin-bottom: 50px;
+   padding-left: 20px;
 }
+footer h6{
+   
+   margin-bottom: 50px;
+    padding-left: 20px;
+}
+
 
 footer a, footer li{
     color: white;
